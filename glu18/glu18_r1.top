@@ -1,0 +1,55 @@
+#include "../../martini.ff/martini_v2.2P.itp"
+#include "../../martini.ff/martini_v2.0_ions.itp"
+#include "../../martini_v2.0_DGD5.itp"
+#include "../../martini_v2.0_DGD4.itp"
+#include "../../martini_v2.0_DGD3.itp"
+#include "../../martini_v2.0_MGD5.itp"
+#include "../../martini_v2.0_MGD4.itp"
+#include "../../martini_v2.0_MGD2.itp"
+#include "../../martini_v2.0_MGD1.itp"
+#include "../../martini_v2.0_DVDG.itp"
+#include "../../martini_v2.0_DODG.itp"
+#include "../../martini_v2.0_PVDG_01.itp"
+#include "../../martini_v2.0_DOPG.itp"
+#include "../../martini_v2.0_PVPG.itp"
+#include "../../martini_v2.0_POPG_02.itp"
+#include "../../martini_v2.0_DPPG_01.itp"
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>DPPG:POPG:PVPG:DOPG:PVDG:DODG:DVDG:MGD1:MGD2:MGD4:MGD5:DGD3:DGD4:DGD5=0.05:0.05:0.11:0.11:0.07:0.07:0.02:0.04:0.04:0.08:0.16:0.03:0.12:0.05 LowerLeaflet>DPPG:POPG:PVPG:DOPG:PVDG:DODG:DVDG:MGD1:MGD2:MGD4:MGD5:DGD3:DGD4:DGD5=0.05:0.05:0.11:0.11:0.07:0.07:0.02:0.04:0.04:0.08:0.16:0.03:0.12:0.05
+
+
+[ molecules ]
+; name  number
+DPPG           101
+POPG           101
+PVPG           222
+DOPG           222
+PVDG           141
+DODG           141
+DVDG            40
+MGD1            81
+MGD2            81
+MGD4           162
+MGD5           324
+DGD3            60
+DGD4           243
+DGD5           101
+DPPG           101
+POPG           101
+PVPG           222
+DOPG           222
+PVDG           141
+DODG           141
+DVDG            40
+MGD1            81
+MGD2            81
+MGD4           162
+MGD5           324
+DGD3            60
+DGD4           243
+DGD5           101
+PW          105370
+NA+              3084
+CL-              1792
