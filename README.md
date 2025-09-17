@@ -1,6 +1,6 @@
 # Pneumococcal Cell Membrane Models
 
-Coarse-grained (Martini 2.2) Molecular Dynamics Production Simulation files for pneumococcal membrane models grown with four difference growth media:
+Coarse-grained (Martini 2.2) Molecular Dynamics Production Simulation files for pneumococcal membrane models grown with four different growth media:
 
 1) **gal**:   Galactose
 2) **glu**:   Glucose
